@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../arch_lab_4.srcs/sources_1/ip/data_ram/sim/data_ram.v" \
+"../../../../arch_lab_4.srcs/sources_1/ip/inst_rom/sim/inst_rom.v" \
+"../../../../arch_lab_4.srcs/sources_1/imports/8_pipeline_cpu/adder.v" \
+"../../../../arch_lab_4.srcs/sources_1/imports/8_pipeline_cpu/alu.v" \
+"../../../../arch_lab_4.srcs/sources_1/imports/8_pipeline_cpu/decode.v" \
+"../../../../arch_lab_4.srcs/sources_1/imports/8_pipeline_cpu/exe.v" \
+"../../../../arch_lab_4.srcs/sources_1/imports/8_pipeline_cpu/fetch.v" \
+"../../../../arch_lab_4.srcs/sources_1/imports/8_pipeline_cpu/mem.v" \
+"../../../../arch_lab_4.srcs/sources_1/imports/8_pipeline_cpu/multiply.v" \
+"../../../../arch_lab_4.srcs/sources_1/imports/8_pipeline_cpu/pipeline_cpu.v" \
+"../../../../arch_lab_4.srcs/sources_1/new/read.v" \
+"../../../../arch_lab_4.srcs/sources_1/imports/8_pipeline_cpu/regfile.v" \
+"../../../../arch_lab_4.srcs/sources_1/imports/8_pipeline_cpu/wb.v" \
+"../../../../arch_lab_4.srcs/sources_1/imports/8_pipeline_cpu/pipeline_cpu_display.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

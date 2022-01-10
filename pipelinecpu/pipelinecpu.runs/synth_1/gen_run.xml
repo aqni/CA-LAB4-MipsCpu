@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchTime="0">
+  <BlockFileSet Type="BlockSrcs" Name="data_ram"/>
+</GenRun>
